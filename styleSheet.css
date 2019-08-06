@@ -1,0 +1,268 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  marign:0;
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
+/*home page css stylesheet */
+h1{
+  color: black;
+  text-shadow: 2px 2px 4px #000000;
+}
+h2{
+  color: black;
+  text-shadow: 2px 2px 4px #000000;
+}
+h3{
+  color: black;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+b{
+  color: black;
+  text-shadow: 2px 2px 4px #000000;
+}
+.header{
+  background-color: orange;
+  padding:20px;
+  text-align: center;
+}
+.topnav{
+  overflow: hidden;
+  background-color: black;
+}
+.topnav a{
+  float: right;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav a:hover{
+  background-color: orange;
+  color: white;
+}
+.topnav a:visited{
+  color: white;
+}
+.topnav a:active{
+  color: white;
+}
+a:hover:not(.active){
+  background-color: orange;
+}
+div.img{
+  overflow: hidden;
+}
+div.rvs:hover{
+  background-color: orange;
+}
+img{
+  border-radius: 250px;
+}
+td{
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 15px 50px 30px 5px;
+  text-decoration-color: white;
+}
+.td1:hover{
+  background-color: orange;
+  color: black;
+}
+.td2:hover{
+  background-color: orange;
+  color: black;
+}
+.td3:hover{
+  background-color: orange;
+  color: black;
+}
+.td4:hover{
+  background-color: orange;
+  color: black;
+}
+.column{
+  float: left;
+  padding: 10px;
+}
+.column.slide{
+  width: 50%;
+}
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width:600px) {
+  .column.slide,.column.middle{
+    width: 100%;
+  }
+}
+.footer{
+  background-color: orange;
+  padding:10px;
+  text-align: center;
+}/*end home page */
+
+/*strat edcation*/
+div.ed2{
+  margin-left: 10px;
+  padding: 10px 10px 10px 10px;
+}
+.rvs{
+  border-radius: 15px 50px;
+  border: 2px solid orange;
+}
+.nanjappa{
+  border-radius: 15px 50px;
+}
+.rkr{
+  border-radius: 15px 50px;
+  border: 2px solid orange;
+}
+/*end education*/
+
+/* start skill*/
+.c1{
+  border-radius: 15px 50px 30px;
+}
+.c1:hover{
+  background-color: orange;
+  color: black;
+}
+.c2{
+  border-radius: 15px 50px 30px;
+}
+.c2:hover{
+  background-color: orange;
+  color: black;
+}
+.c3{
+  border-radius: 15px 50px 30px;
+}
+.c3:hover{
+  background-color: orange;
+  color: black;
+}
+.c4{
+  border-radius: 15px 50px 30px;
+}
+.c4:hover{
+  background-color: orange;
+  color: black;
+}
+.c5{
+  border-radius: 15px 50px 30px;
+}
+.c5:hover{
+  background-color: lightgrey;
+  color: white;
+}
+.checked{
+  color: darkorange;
+}
+.checked:hover{
+  color:white;
+}
+/*end skill*/
+
+/*start about*/
+a.cc:link,a.cc:visited {
+  background-color: orange;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a.cc:hover,a.cc:active {
+  background-color: green;
+}
+/*end about*/
+
+/*contact me*/
+input[type=text]{
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  background-color: orange;
+  color: white;
+}
+input[type=phone]{
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  background-color: orange;
+  color: white;
+}
+input[type=email]{
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  background-color: orange;
+  color: white;
+}
+textarea{
+  width: 20%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  border-radius: 4px;
+  background-color: orange;
+  resize: none;
+  color: white;
+}
+button{
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+button:hover,button:active {
+  background-color: green;
+}
+/*end contact*/
+
+/*strat footer*/
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+/*end footer*/
