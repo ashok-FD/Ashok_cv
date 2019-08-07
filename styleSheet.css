@@ -3,7 +3,7 @@
 }
 body{
   marign:0;
-  background-color:#FFA07A;
+  background-color:#FFFFFF;
 }
 /*home page css stylesheet */
 h1{
@@ -24,7 +24,7 @@ b{
   text-shadow: 2px 2px 4px #000000;
 }
 .header{
-  background-color: orange;
+  background-color: #FF9933;
   padding:20px;
   text-align: center;
 }
@@ -69,11 +69,11 @@ td{
   text-decoration-color: white;
 }
 .td1:hover{
-  background-color: #FFEFD5;
+  background-color: orange;
   color: black;
 }
 .td2:hover{
-  background-color: #FFEFD5;
+  background-color: orange;
   color: black;
 }
 .td3:hover{
