@@ -128,38 +128,39 @@ div.ed2{
 /* start skill*/
 .c1{
   border-radius: 15px 50px 30px;
+  position: relative;
+  left:100px;
 }
 .c1:hover{
-  background-color: orange;
+  background-color: lightgrey;
   color: black;
 }
 .c2{
   border-radius: 15px 50px 30px;
+  position: relative;
+  left:300px;
 }
 .c2:hover{
-  background-color: orange;
+  background-color: lightgrey;
   color: black;
 }
 .c3{
   border-radius: 15px 50px 30px;
+  position: relative;
+  left:100px;
 }
 .c3:hover{
-  background-color: orange;
+  background-color: lightgrey;
   color: black;
 }
 .c4{
   border-radius: 15px 50px 30px;
+  position: relative;
+  left:300px;
 }
 .c4:hover{
-  background-color: orange;
-  color: black;
-}
-.c5{
-  border-radius: 15px 50px 30px;
-}
-.c5:hover{
   background-color: lightgrey;
-  color: white;
+  color: black;
 }
 .checked{
   color: darkorange;
