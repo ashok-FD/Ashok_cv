@@ -142,8 +142,6 @@ div.ed2{
 }
 .c3{
   border-radius: 15px 50px 30px;
-  position: relative;
-  left:100px;
 }
 .c3:hover{
   background-color: lightgrey;
