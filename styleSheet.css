@@ -169,6 +169,9 @@ div.ed2{
   height: 300px;
   float: right;
 }
+p.dance{
+  margin-left: 300px;
+}
 a.cc:link,a.cc:visited {
   background-color: orange;
   color: black;
