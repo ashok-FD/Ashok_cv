@@ -163,6 +163,12 @@ div.ed2{
     /*end skill*/
 
 /*start about*/
+.youtube{
+  border-radius: 20px 20px 20px 20px;
+  width: 500px;
+  height: 300px;
+  float: right;
+}
 a.cc:link,a.cc:visited {
   background-color: orange;
   color: black;
