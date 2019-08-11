@@ -237,7 +237,7 @@ button{
   cursor: pointer;
 }
 button:hover,button:active {
-  background-color: red;
+  background-color: white;
 }
 .label{
   color:white;
