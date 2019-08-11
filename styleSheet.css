@@ -195,8 +195,8 @@ input[type=text]{
   margin: 8px 0;
   box-sizing: border-box;
   border: 1px solid grey;
-  background-color: orange;
-  color: white;
+  background-color: #00FF41;
+  color: black;
 }
 input[type=phone]{
   width: 20%;
@@ -237,7 +237,7 @@ button{
   cursor: pointer;
 }
 button:hover,button:active {
-  background-color: black;
+  background-color: red;
 }
 .label{
   color:white;
