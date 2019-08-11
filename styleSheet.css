@@ -3,28 +3,31 @@
 }
 body{
   marign:0;
-  background-color:#FFFFFF;
+  background-color:#1B1B1B;
 }
 /*home page css stylesheet */
 h1{
-  color: black;
+  color: white;
   text-shadow: 2px 2px 4px #000000;
 }
 h2{
-  color: black;
+  color: white;
   text-shadow: 2px 2px 4px #000000;
 }
 h3{
-  color: black;
+  color: white;
   text-shadow: 2px 2px 4px #000000;
 }
 
 b{
-  color: black;
+  color: white;
   text-shadow: 2px 2px 4px #000000;
 }
+p{
+  color: white;
+}
 .header{
-  background-color: #FF9933;
+  background-color: black;
   padding:20px;
   text-align: center;
 }
@@ -41,7 +44,7 @@ b{
   text-decoration: none;
 }
 .topnav a:hover{
-  background-color: orange;
+  background-color: #00FF41;
   color: white;
 }
 .topnav a:visited{
@@ -51,7 +54,7 @@ b{
   color: white;
 }
 a:hover:not(.active){
-  background-color: orange;
+  background-color: #00FF41;
 }
 div.img{
   overflow: hidden;
@@ -69,19 +72,19 @@ td{
   text-decoration-color: white;
 }
 .td1:hover{
-  background-color:  	lightgrey;
+  background-color:  	black;
   color: black;
 }
 .td2:hover{
-  background-color:  	lightgrey;
+  background-color:  	black;
   color: black;
 }
 .td3:hover{
-  background-color:  	lightgrey;
+  background-color:  	black;
   color: black;
 }
 .td4:hover{
-  background-color:  	lightgrey;
+  background-color:  	black;
   color: black;
 }
 .column{
@@ -102,7 +105,7 @@ td{
   }
 }
 .footer{
-  background-color: #138808;
+  background-color: black;
   padding:10px;
   text-align: center;
 }/*end home page */
@@ -114,14 +117,14 @@ div.ed2{
 }
 .rvs{
   border-radius: 15px 50px;
-  border: 2px solid orange;
+  border: 2px solid #00FF41;
 }
 .nanjappa{
   border-radius: 15px 50px;
 }
 .rkr{
   border-radius: 15px 50px;
-  border: 2px solid orange;
+  border: 2px solid #00FF41;
 }
 /*end education*/
 
@@ -130,8 +133,8 @@ div.ed2{
   border-radius: 15px 50px 30px;
 }
 .c1:hover{
-  background-color: lightgrey;
-  color: black;
+  background-color: black;
+  color: white;
 }
 .c2{
   border-radius: 15px 50px 30px;
