@@ -140,21 +140,21 @@ div.ed2{
   border-radius: 15px 50px 30px;
 }
 .c2:hover{
-  background-color: lightgrey;
+  background-color: black;
   color: black;
 }
 .c3{
   border-radius: 15px 50px 30px;
 }
 .c3:hover{
-  background-color: lightgrey;
+  background-color: black;
   color: black;
 }
 .c4{
   border-radius: 15px 50px 30px;
 }
 .c4:hover{
-  background-color: lightgrey;
+  background-color: black;
   color: black;
 }
 .checked{
@@ -176,7 +176,7 @@ p.dance{
   margin-left: 300px;
 }
 a.cc:link,a.cc:visited {
-  background-color: orange;
+  background-color: #00FF41;
   color: black;
   padding: 14px 25px;
   text-align: center;
@@ -184,7 +184,7 @@ a.cc:link,a.cc:visited {
   display: inline-block;
 }
 a.cc:hover,a.cc:active {
-  background-color: green;
+  background-color: White;
 }
 /*end about*/
 
@@ -204,8 +204,8 @@ input[type=phone]{
   margin: 8px 0;
   box-sizing: border-box;
   border: 1px solid grey;
-  background-color: orange;
-  color: white;
+  background-color: #00FF41;
+  color: black;
 }
 input[type=email]{
   width: 20%;
@@ -213,8 +213,8 @@ input[type=email]{
   margin: 8px 0;
   box-sizing: border-box;
   border: 1px solid grey;
-  background-color: orange;
-  color: white;
+  background-color: #00FF41;
+  color: black;
 }
 textarea{
   width: 20%;
@@ -223,21 +223,24 @@ textarea{
   box-sizing: border-box;
   border: 1px solid grey;
   border-radius: 4px;
-  background-color: orange;
+  background-color: #00FF41;
   resize: none;
-  color: white;
+  color: black;
 }
 button{
-  background-color: orange;
+  background-color: #00FF41;
   border: none;
-  color: white;
+  color: black;
   padding: 16px 32px;
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
 }
 button:hover,button:active {
-  background-color: green;
+  background-color: black;
+}
+.label{
+  color:white;
 }
 /*end contact*/
 
